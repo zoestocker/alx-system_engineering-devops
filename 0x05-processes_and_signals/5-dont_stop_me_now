@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Kills the previous program using kill
+id=$(pgrep "bash ./4-to_infinity_and_beyond" -f)
+if [ -n "#id" ]
+then
+	kill -15 "$id"
+fi
